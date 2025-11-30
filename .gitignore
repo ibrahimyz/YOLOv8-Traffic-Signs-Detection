@@ -6,7 +6,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Model weights
-*.pt
+*_pretrained.pt
 *.onnx
 
 # YOLOv8 output
