@@ -1,0 +1,49 @@
+# ----------------------------------------
+# Dataset kök dizini
+# (train/val/test klasörlerini içeren)
+# ----------------------------------------
+dataset_root: path/to/your/dataset/root
+
+# ----------------------------------------
+# Eğitim, Doğrulama ve Test setlerinin yolları 
+# path altındaki dizinler         # (Labels klasörleri otomatik bulunur.)
+# ----------------------------------------
+train: "train"
+val: "val"
+test: "test"     
+
+# ----------------------------------------
+# Sınıf sayısı (number of classes)
+# ----------------------------------------
+nc: 26
+
+# ----------------------------------------
+# Sınıf İsimleri (class names)
+# ----------------------------------------
+names:
+  0: yaya_gecidi_T11
+  1: kasisli_yol
+  2: ana_yol_tali_yol_kavsagi_T22b
+  3: yaya_gecidi_B14a
+  4: ileri_ve_sol_mecburi
+  5: duraklamak_ve_park_etmek_yasaktir
+  6: sagdan_gidiniz
+  7: park_etmek_yasaktir
+  8: okul_gecidi_T12
+  9: 30_azami_hiz
+  10: okul_gecidi_B14b
+  11: saga_tehlikeli_viraj
+  12: yol_ver
+  13: ileri_ve_saga_mecburi_yon
+  14: u_donusu_yapilmaz
+  15: isikli_isaret_cihazi
+  16: sola_donulmez
+  17: gizli_buzlanma
+  18: girisi_olmayan_yol
+  19: saga_donulmez
+  20: "park"
+  21: "durak"
+  22: "soldan_gidiniz"
+  23: "dur"
+  24: "20_azami_hiz"
+  25: "donel_kavsak" 
